@@ -1,5 +1,6 @@
 library(pcalg)
 library(mvtnorm)
+library(BCDAG)
 
 gen.dag.parameters = function(q, prob, inf.lim, sup.lim, var.cond){
   
